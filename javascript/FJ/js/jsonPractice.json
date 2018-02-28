@@ -1,0 +1,28 @@
+[{
+    "Name":"Afjal Hossan",
+    "email":"its4afjal@gmail.com",
+    "links":[
+        {
+            "facebook":"fb.com",
+            "Twitter" :"twitter.com",
+            "youtube":"yoututbe.com"
+        }
+    ],
+    "age":32,
+    "skillls":["JavaScript","css","html5","jquery"],
+    "isMarried":false
+},
+{
+    "Name":"Afjal Hossan",
+    "email":"its4afjal@gmail.com",
+    "links":[
+        {
+            "facebook":"fb.com",
+            "Twitter" :"twitter.com",
+            "youtube":"yoututbe.com"
+        }
+    ],
+    "age":32,
+    "skillls":["JavaScript","css","html5","jquery"],
+    "isMarried":false
+}]
