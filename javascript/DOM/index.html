@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 style="margin:30px 0">it's lecture one-DOM -Baue </h3>
+
+    <p>some outer text</p>
+    <p class="unicycle">some outer text</p>
+    <div id="div1">
+        <p>some div1 text</p>
+        <div id="div2">
+            <p class="unicycle">some div2 text</p>
+            <p>some div2 text</p>
+        </div>
+    </div>
+    <h3 style="margin:30px 0">it's lecture Two-DOM -Baue </h3>
+
+    <p id="line">
+        "if I had a flying squirrel I would name it after you"
+    </p>
+    <p id="attribute">
+        from <a href="htts://facebook.com">afjal hossan</a>
+    </p>
+
+    <h3 style="margin:30px 0">it's lecture Two-DOM -Baue </h3>
+
+
+    <h1 onclick="this.innerHTML ='Cereal!'">What is my Favorate food ?</h1>
+
+    <h1 onclick="changeColor(this)">Click to change color!</h1>
+
+    <button id="myBtn">Click Me</button>
+
+    <input type="text" id="words" oninput="rmletterFrmH1()" />
+
+    <div onmouseover ="mOver(this)" onmouseout="mOut(this)" class="box">Mouse Over Me</div>
+
+    <h3 style="margin:30px">it's lecture Three-DOM -Baue </h3>
+
+
+    <div id="myDiv">
+        <p id="myP">
+            How much wood a woodchuck chuck if a wood chuck could chuck wood?
+        </p>
+    </div>
+    <div id="myDiv2">
+        <p id="myP2">
+            A woodchuck would chuck as much wood as a woodchuck could chuck if a woodchuck could chuck wood.
+        </p>
+    </div>
+
+
+    <h3 style="margin:30px">it's lecture Four -DOM -Baue </h3>
+
+    <div id="div1">
+        <p id="p1">Lorem ipsum dolor sit amet.</p>
+        <p id="p2">How I wonder what you are !</p>
+    </div>
+    <button onclick="myMove()">click me</button>
+    <div id="myContainer">
+        <div id="myAnimation">
+            <div id="item"></div>
+        </div>
+    </div>
+
+
+ <p id="demo"></p>
+
+ <button onclick="newWindowObj.close()" value="Close Window">Close Window</button>
+ <input type="button" value="Move wondow" onclick="move()">
+ <a href="http://carnes.cc" target="newWindow">Baue Carmes</a>
+    
+
+
+
+
+    <script src="dom.js"></script>
+</body>
+</html>
